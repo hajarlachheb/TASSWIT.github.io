@@ -1,0 +1,125 @@
+
+<!DOCTYPE HTML>
+    <head>
+    <meta charset="utf-8">
+
+    <title>TASSWIT - Proto.io player</title>
+
+    
+
+			<link type="text/css" rel="stylesheet" href="./stylesheets/preview-export-min.css">
+			<script type="text/javascript" src="./scripts/preview-export-min.js"></script>
+
+		
+
+    <script type="text/javascript">
+        var prx = window.prx || {};
+        prx.orientation = 'landscape';
+        prx.orientations = {};
+        prx.orientations.portrait = 0;
+        prx.orientations.landscape = 1;
+        prx.project = {};
+        prx.project.id = 'cf86f065-f56f-4880-b85a-500d5416f1b6';
+        prx.project.title = 'TASSWIT';
+        prx.project.version = 0;
+        prx.project.livepreview = 0;
+        prx.project.account = "hajarlachheb";
+        prx.activePage = {};
+        prx.usercountry = "us";
+        
+            prx.user = false;
+        
+        prx.skin = 'web';
+        prx.ver = '6.6.81.0';
+        //prx.flashactions = 1;
+		prx.flashactions = 1; //we are not using the DB value anymore
+
+        prx.nodejsassetsserver = {};
+        prx.nodejsassetsserver.host = ".proto.io";
+        prx.nodejsassetsserver.subdomainprefix = "https://at";
+        prx.nodejsassetsserver.maxsubdomains = "20";
+        prx.account = "hajarlachheb";
+        prx.browserShowScreenshots = 'true';
+        prx.url.crossmsg = 'https://hajarlachheb.proto.io';
+        prx.playerUrl = 'https://hajarlachheb.proto.io/player/';
+        prx.spaces = false;
+        prx.csrf_token = '9189ACADCEBC25AD7256A579F80E430590A1CCB4C7E9B08BC55B98BAF0D8FC02';
+
+        prx.bShowPlayerBetaPrompt = false;
+
+        
+    </script>
+
+    
+
+</head>
+
+
+<body style="background-color:#FFFFFF">
+
+    
+
+    <div class="page-sidebar">
+        
+        <div class="sidebar-action-buttons">
+
+            
+                <span class="header-action-button player-icon-reload embed-icon-reload" id="refresh-preview">
+                    <span class="tooltip">Refresh preview</span>
+                </span>
+                
+
+        </div>
+
+    </div>
+
+    <div id="maincontent" class="landscape">
+
+        <div id="shortcut-pressed-outer">
+            <div id="shortcut-pressed"></div>
+        </div>
+        
+
+			<div class="frame_generic">
+				
+				<div class="body_generic skin_web skin-wrapper skin-os-web skin-device-phone skin-model- skin-size-1 skin-color-white skin-orientation-landscape skin-dimensions-1440-900">
+
+					<div class="buttons top"></div>
+					<div class="detail-top"></div>
+					<div class="web-search"></div>
+					<div class="buttons left"></div>
+
+					<div class="body_generic_inner">
+						
+						<iframe id="pio-playerframe" src="index.html" scrolling="NO" style="width: 1440px; height: 900px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen allowvr allow="autoplay"></iframe>
+						
+                                <script type="text/javascript">
+                                    // remove parameter from address bar immediately if no changes
+                                    let url = new URL(window.location.href);
+                                    url.searchParams.delete('hc');
+									url.searchParams.delete('ap');
+                                    window.history.replaceState({}, document.title, url.toString());
+                                </script>
+                            
+					</div>
+
+					<div class="buttons right"></div>
+					<div class="detail-bottom"></div>
+				</div>
+				
+			</div>
+		
+    </div>
+
+    
+
+    
+            <div id="branding"></div>
+        
+</body>
+
+
+<script type="text/javascript">
+    
+</script>
+</html>
